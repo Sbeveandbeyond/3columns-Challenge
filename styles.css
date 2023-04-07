@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+body{
+    background-color: hsla(0, 0%, 95%);
+    width: 1440px;
+    max-width: 1440px;
+    padding-top: 180px;
+    padding-bottom: 120px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: hsla(0, 0%, 95%);
+}
+
+p{
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 1rem;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+/* classes */
+
+
+.first{
+    background-color: hsl(31, 77%, 52%);
+    width: 340px;
+    height: 600px;
+    display:inline-block;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    position: relative;
+    vertical-align: top;
+}
+
+.first:hover{
+    background-color: hsla(31, 77%, 52%, 0.89);
+}
+
+.second{
+    background-color: hsl(184, 100%, 22%);
+    width: 340px;
+    height: 600px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+
+.second:hover{
+    background-color: hsl(184, 100%, 22%, 0.89);
+}
+
+.third{
+    background-color: hsl(179, 100%, 13%);
+    width: 340px;
+    height: 600px;
+    display: inline-block;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+    vertical-align: top;
+}
+
+.third:hover{
+    background-color: hsl(179, 100%, 13%, 0.89);
+}
+
+.pad{
+    padding-left: 60px;
+    padding-right: 35px;
+    padding-top: 100px;
+    text-align: left;
+    vertical-align: top;
+}
+
+/*button*/
+
+.btn {
+    -webkit-border-radius: 26;
+    -moz-border-radius: 26;
+    border-radius: 26px;
+    font-family: Arial;
+    font-size: 16px;
+    background: #f2f2f2;
+    padding: 14px 32px 14px 32px;
+    border: solid #f2f2f2 3px;
+    text-decoration: none;
+
+    position: absolute;
+    bottom: 60px;
+  }
+  
+  .btn:hover {
+    background: #ebebeb00;
+    color: #f2f2f2;
+    text-decoration: none;
+  }
+
+  .b1{
+    color: #e38826;
+  }
+
+  .b2{
+    color: hsl(184, 100%, 22%);
+  }
+
+  .b3{
+    color: hsl(179, 100%, 13%);
+  }
