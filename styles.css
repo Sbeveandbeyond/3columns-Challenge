@@ -5,8 +5,8 @@ body{
     background-color: hsla(0, 0%, 95%);
     width: 1440px;
     max-width: 1440px;
-    padding-top: 180px;
-    padding-bottom: 120px;
+    padding-top: 200px;
+    padding-bottom: 140px;
     margin: 0 auto;
     text-align: center;
 }
@@ -23,6 +23,7 @@ p{
     font-weight: 400;
     font-size: 1rem;
     color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5;
 }
 
 /* classes */
@@ -31,7 +32,7 @@ p{
 .first{
     background-color: hsl(31, 77%, 52%);
     width: 340px;
-    height: 600px;
+    height: 550px;
     display:inline-block;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -46,7 +47,7 @@ p{
 .second{
     background-color: hsl(184, 100%, 22%);
     width: 340px;
-    height: 600px;
+    height: 550px;
     display: inline-block;
     position: relative;
     vertical-align: top;
@@ -59,7 +60,7 @@ p{
 .third{
     background-color: hsl(179, 100%, 13%);
     width: 340px;
-    height: 600px;
+    height: 550px;
     display: inline-block;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -74,7 +75,7 @@ p{
 .pad{
     padding-left: 60px;
     padding-right: 35px;
-    padding-top: 100px;
+    padding-top: 80px;
     text-align: left;
     vertical-align: top;
 }
@@ -91,7 +92,7 @@ p{
     padding: 14px 32px 14px 32px;
     border: solid #f2f2f2 3px;
     text-decoration: none;
-
+    transition: all .4s ease-in-out;
     position: absolute;
     bottom: 60px;
   }
@@ -113,3 +114,20 @@ p{
   .b3{
     color: hsl(179, 100%, 13%);
   }
+
+  .rights{
+    color: rgb(36, 36, 36);
+  }
+
+  .sbeve{
+    color: palevioletred;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+  }
+
+    .sbeve:hover{
+        color: pink;
+        transition: all 0.5s ease;
+    }
